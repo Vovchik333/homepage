@@ -189,6 +189,7 @@ body {
 
 .experiences__timeline {
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 .experiences__timeline p {
@@ -237,5 +238,23 @@ body {
 }
   
 .additional-info__languages-item {
+    color: var(--secondary-text-color);
+}
+
+.strengths-and-weaknesses-info,
+.like-and-dislike-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.strengths-and-weaknesses-info h3,
+.like-and-dislike-info h3 {
+    color: var(--secondary-text-color);
+}
+
+.strengths-and-weaknesses-info ul,
+.like-and-dislike-info ul {
+    padding-left: 20px;
     color: var(--secondary-text-color);
 }
