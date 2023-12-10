@@ -50,7 +50,7 @@ body {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 580px) {
     .main-info, 
     .contact_info_container {
         flex-direction: column;
@@ -99,6 +99,7 @@ body {
 }
 
 .contact-info__item {
+    width: 230px;
     color: var(--secondary-text-color);
     text-decoration: none;
     display: flex;
